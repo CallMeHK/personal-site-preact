@@ -1,17 +1,20 @@
 /** @jsx h */
 
 import { h, render } from "preact";
-import Intro from './components/Intro';
-import './styles.css'
+import Intro from "./components/Intro";
+import "./styles.css";
 import About from "./components/About";
+import Slider from "./components/Slider";
 import Footer from "./components/Footer";
-
 
 const App = ({ children, ...props }) => (
   <div className="intro">
-    <Intro/>
-    <About/>
-    <Footer/>
+    <div className="container">
+      <Intro />
+      <About />
+      <Slider />
+    </div>
+    <Footer />
   </div>
 );
 

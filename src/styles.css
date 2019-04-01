@@ -15,6 +15,8 @@ h2 {
 
 .intro {
   height: 100vh;
+  display: flex;
+    justify-content: center;
 }
 
 .intro-wrapper {
@@ -68,11 +70,11 @@ h2 {
   width: 100vw;
   bottom: 0;
   padding: 0.5rem 0.2rem;
- 
+
   opacity: 0;
   animation: 1.3s ease-out 0s 1 fadeIn;
   animation-fill-mode: forwards;
-  animation-delay: 1.6s;
+  animation-delay: 1.9s;
 
   display: flex;
   justify-content: space-between;
@@ -90,8 +92,40 @@ h2 {
   align-items: center;
 }
 
-.icons>a>img{
+.icons > a > img {
   height: 20px;
+}
+
+.slider {
+  animation-delay: 1.7s;
+}
+
+.slider-wrapper {
+  padding: 0.5rem;
+  flex-direction: column;
+  margin: 0.7rem;
+  display: flex;
+  flex-wrap: wrap;
+  background: #53535359;
+}
+.slider-card {
+  margin: 2px 4px;
+}
+.slider-card-wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.slider-card-wrapper > img {
+  height: 25px;
+}
+.slider-card-wrapper > div {
+  margin-left:1rem;
+}
+
+.container{
+  max-width: 500px;
 }
 @keyframes slideInFromLeft {
   0% {
