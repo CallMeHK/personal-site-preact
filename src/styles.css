@@ -1,0 +1,112 @@
+html {
+  background: url("./assets/dark_mosaic.png");
+  color: white;
+}
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+}
+
+h2 {
+  margin: 0.25rem;
+  font-size: 2.5rem;
+}
+
+.intro {
+  height: 100vh;
+}
+
+.intro-wrapper {
+  padding: 1rem 0.75rem;
+}
+
+.slide {
+  transform: translateX(-100%);
+  animation: 1s ease-out 0s 1 slideInFromLeft;
+  animation-fill-mode: forwards;
+}
+
+.intro1 {
+  animation-delay: 0s;
+}
+
+.intro2 {
+  animation-delay: 0.35s;
+}
+
+.intro3 {
+  animation-delay: 0.7s;
+}
+
+.fade {
+  opacity: 0;
+  animation: 1.3s ease-out 0s 1 fadeIn;
+  animation-fill-mode: forwards;
+}
+.about {
+  animation-delay: 1.4s;
+}
+
+.card {
+  padding: 0.5rem;
+  margin: 0.7rem;
+  display: flex;
+  background: #53535359;
+}
+
+.pic {
+  padding: 0.7rem;
+}
+.pic > img {
+  height: 7em;
+}
+
+.footer {
+  position: fixed;
+  background: #53535359;
+  width: 100vw;
+  bottom: 0;
+  padding: 0.5rem 0.2rem;
+ 
+  opacity: 0;
+  animation: 1.3s ease-out 0s 1 fadeIn;
+  animation-fill-mode: forwards;
+  animation-delay: 1.6s;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.email {
+  color: #ffffff9c;
+}
+
+.icons {
+  margin: 0 1rem;
+  width: 3.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.icons>a>img{
+  height: 20px;
+}
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
