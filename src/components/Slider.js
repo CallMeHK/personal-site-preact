@@ -42,7 +42,7 @@ const tech = [
 ]
 const Slider = props => (
   <div className="slider fade">
-    <div className='slider-wrapper' style={{height:`${tech.length/2 * 30 +10}px`}}>
+    <div className='slider-wrapper' style={{height:`${tech.length/2 * 30 +45}px`}}>
       {tech.map(elt => <SliderCard logo={elt.img} name={elt.name}/>)}
     </div>
   </div>
