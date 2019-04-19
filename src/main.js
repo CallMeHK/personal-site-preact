@@ -8,8 +8,6 @@ import Slider from "./components/Slider";
 import GithubPreview from "./components/GithubPreview";
 import Footer from "./components/Footer";
 import useWindowSize from "./hooks/useWindowSize";
-import { useState, useEffect } from "preact/hooks";
-
 import jsx from "./assets/jsx.png";
 
 const github = {
@@ -29,16 +27,14 @@ function App() {
         <Intro />
         <About />
         <Slider />
-        {size.height > 872 && (
-          <div className="github">
-            <GithubPreview {...github} />
-          </div>
-        )}
+        <div className="github">
+          <GithubPreview {...github} />
+        </div>
       </div>
       <Footer />
     </div>
   );
-};
+}
 
 // render an instance of Clock into <body>:
 render(<App />, document.body);

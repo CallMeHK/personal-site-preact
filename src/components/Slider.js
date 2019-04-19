@@ -22,22 +22,22 @@ import git from "../assets/logos/other/git.png"
 
 
 const tech = [
-    {name:'CSS', img:css},
-    {name:'D3', img:D3L},
-    {name:'HTML',img:HTML},
-    {name:'Jest', img:jest},
-    {name:'JavaScript', img:js},
-    {name:'React', img:reactS},
-    {name:'Redux', img:redux},
-    {name:'Selenium',img:selenium},
-    {name:'Vue', img:vue},
+    {name:'HTML',img:HTML},{name:'CSS', img:css},{name:'JavaScript', img:js},
+    {name:'React', img:reactS},{name:'Redux', img:redux},{name:'Vue', img:vue},{name:'D3', img:D3L},
     {name:'Webpack', img:webpack},
-    {name:'FeathersJS', img:feathersjsResized},
-    {name:'Flask', img:flask},
-    {name:'MongoDB', img:mdb},
+    {name:'Jest', img:jest},
+    {name:'Selenium',img:selenium},
+    
     {name:'node.js', img:node},
-    {name:'Python', img:python},
+    {name:'FeathersJS', img:feathersjsResized},
+    {name:'Python', img:python},{name:'Flask', img:flask},
+    
+    
+    
+    {name:'MongoDB', img:mdb},
     {name:'SQL', img:sql},
+    
+    
     {name:'git', img:git},
 ]
 const Slider = props => (

@@ -14,9 +14,9 @@ h2 {
 }
 
 .intro {
-  height: 100vh;
   display: flex;
   justify-content: center;
+  padding-bottom:4rem;
 }
 
 .intro-wrapper {
@@ -67,7 +67,7 @@ h2 {
 
 .footer {
   position: fixed;
-  background: #53535359;
+  background: #111111;
   width: 100vw;
   bottom: 0;
   padding: 0.5rem 0.2rem;
@@ -76,15 +76,20 @@ h2 {
   animation: 1.3s ease-out 0s 1 fadeIn;
   animation-fill-mode: forwards;
   animation-delay: 1.9s;
-
+  display: flex;
+  justify-content: center;
+  
+}
+.footer-wrangler {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  width:100%;
+  max-width: 800px;
 }
-
 .email {
   color: #ffffff9c;
-  margin-left: 0.5rem;
+  margin-left: 1rem;
 }
 
 .icons {
@@ -130,6 +135,7 @@ h2 {
 
 .container {
   max-width: 720px;
+  width:100%;
 }
 
 .logo {
@@ -137,15 +143,23 @@ h2 {
 }
 .git-card {
   animation-delay: 1.85s;
-  padding: 0.5rem;
-  margin: 1rem 4rem;
-  display: flex;
+  padding: .7rem;
+  margin: 1rem 1rem;
+
   background: #53535359;
 }
 .git-img {
-  height: 7rem;
+  height: 2.8rem;
 }
-
+.git-card-text-head {
+  padding:0 1.5rem;
+  text-align: center;
+}
+.git-card-head {
+  display: flex;
+  align-items: center;
+  padding: 0 .5rem;
+}
 .git-card-body {
   padding: 0.7rem;
 }
