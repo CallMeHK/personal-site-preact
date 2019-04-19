@@ -6,6 +6,7 @@ import "./styles.css";
 import About from "./components/About";
 import Slider from "./components/Slider";
 import GithubPreview from "./components/GithubPreview";
+import Resume from "./components/Resume";
 import Footer from "./components/Footer";
 import useWindowSize from "./hooks/useWindowSize";
 import jsx from "./assets/jsx.png";
@@ -29,6 +30,7 @@ function App() {
         <Slider />
         <div className="github">
           <GithubPreview {...github} />
+          <Resume />
         </div>
       </div>
       <Footer />

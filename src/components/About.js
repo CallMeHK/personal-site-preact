@@ -11,8 +11,8 @@ const About = props => {
             <img src={profile} alt='profile-picture'/>
         </div>
         <div className='about-text'>
-        <p>I'm a self taught full stack dev, specializing in javascript and node.js.  
-            Whatever I lack, I make up for in persistence.  Check out my favorite tech,
+        <p>I'm a self taught, full stack developer, specializing in javascript and node.js.  
+            Whatever I lack, I make up for in persistence.  Check out my favorite tech, resume, 
             linkedIn, and github below.  
         </p>
         </div>

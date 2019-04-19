@@ -87,6 +87,25 @@ h2 {
   width:100%;
   max-width: 800px;
 }
+.doc-img{
+  width:30px;
+}
+.resume{
+  display:flex;
+  justify-content: space-evenly;
+  align-items: center;
+  max-width: 420px;
+  width:100%;
+
+}
+.resume-wrapper{
+  animation-delay: 1.85s;
+  padding: .7rem;
+  margin: 1rem 1rem;
+  display:flex;
+  justify-content: center;
+  background: #53535359;
+}
 .email {
   color: #ffffff9c;
   margin-left: 1rem;
